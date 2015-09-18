@@ -57,6 +57,11 @@
                         class="oe_inline" readonly="1"/>
                     <label for="module_stock_invoice_try_again"/>
                 </div>
+                <div name='module_stock_lot_information'>
+                    <field name="module_stock_lot_information"
+                        class="oe_inline" readonly="1"/>
+                    <label for="module_stock_lot_information"/>
+                </div>
             </div>
             <label for="id" string="Reports"/>
             <div name="stock_reports">
