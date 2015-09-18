@@ -65,3 +65,7 @@ class adhoc_base_configuration(models.TransientModel):
     module_stock_move_defaults = fields.Boolean(
         'Set defaults values on stock moves in order to facilitate file import.',
         help="""Installs the stock_move_defaults module.""")
+    module_stock_lot_information = fields.Boolean(
+        'Add other information to the lot view.',
+        help="""Installs the stock_lot_information module.""")
+
