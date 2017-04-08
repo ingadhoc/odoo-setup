@@ -1,41 +1,82 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* adhoc_base_purchase
-#
+# * adhoc_base_purchase
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: odoo-setup (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 11:53+0000\n"
-"PO-Revision-Date: 2015-03-19 08:58-0300\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2016-01-06 18:15+0000\n"
+"PO-Revision-Date: 2015-09-09 23:35+0000\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/adhoc/ingadhoc-odoo-setup-8-0/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"X-Generator: Poedit 1.5.4\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: adhoc_base_purchase
 #: field:adhoc.base.config.settings,module_purchase_double_validation_imp:0
 msgid ""
 "Adds a button for confirmed orders so that you can print the purchase order."
+msgstr "Adds a button for confirmed orders so that you can print the purchase order."
+
+#. module: adhoc_base_purchase
+#: field:adhoc.base.config.settings,module_purchase_prices_update:0
+msgid ""
+"Adds a button on purchase order view to update prices for the order lines."
 msgstr ""
-"Adds a button for confirmed orders so that you can print the purchase order."
+
+#. module: adhoc_base_purchase
+#: field:adhoc.base.config.settings,module_partner_products_shortcut:0
+msgid ""
+"Adds a shortcut on supplier partner form to the products supplied by this "
+"partner."
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: view:adhoc.base.config.settings:adhoc_base_purchase.view_adhoc_base_configuration
+msgid "Advance Features"
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: view:adhoc.base.config.settings:adhoc_base_purchase.view_adhoc_base_configuration
+msgid "Common Features"
+msgstr ""
 
 #. module: adhoc_base_purchase
 #: field:adhoc.base.config.settings,module_purchase_usability_extension:0
 msgid ""
 "Display Invoices and Incoming Shipments on Purchase Order form view (in "
 "dedicated tabs)."
+msgstr "Display Invoices and Incoming Shipments on Purchase Order form view (in dedicated tabs)."
+
+#. module: adhoc_base_purchase
+#: field:adhoc.base.config.settings,module_purchase_multic_fix:0
+msgid "FiX purchase in multi-company father/son environment"
 msgstr ""
-"Display Invoices and Incoming Shipments on Purchase Order form view (in "
-"dedicated tabs)."
 
 #. module: adhoc_base_purchase
 #: view:adhoc.base.config.settings:adhoc_base_purchase.view_adhoc_base_configuration
 msgid "Fixes"
 msgstr "Correcciones"
+
+#. module: adhoc_base_purchase
+#: help:adhoc.base.config.settings,module_account_analytic_purchase_contract:0
+msgid "Installs the account_analytic_purchase_contract module."
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: help:adhoc.base.config.settings,module_partner_products_shortcut:0
+msgid "Installs the partner_products_shortcut module."
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: help:adhoc.base.config.settings,module_purchase_discount:0
+msgid "Installs the purchase_discount module."
+msgstr ""
 
 #. module: adhoc_base_purchase
 #: help:adhoc.base.config.settings,module_purchase_double_validation_imp:0
@@ -48,14 +89,34 @@ msgid "Installs the purchase_line_defaults."
 msgstr "Installs the purchase_line_defaults."
 
 #. module: adhoc_base_purchase
+#: help:adhoc.base.config.settings,module_purchase_multic_fix:0
+msgid "Installs the purchase_multic_fix module."
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: help:adhoc.base.config.settings,module_purchase_prices_update:0
+msgid "Installs the purchase_prices_update module."
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: help:adhoc.base.config.settings,module_purchase_uom_prices_uoms:0
+msgid "Installs the purchase_uom_prices_uoms."
+msgstr ""
+
+#. module: adhoc_base_purchase
 #: help:adhoc.base.config.settings,module_purchase_usability_extension:0
 msgid "Installs the purchase_usability_extension module."
 msgstr "Installs the purchase_usability_extension module."
 
 #. module: adhoc_base_purchase
-#: view:adhoc.base.config.settings:adhoc_base_purchase.view_adhoc_base_configuration
-msgid "Purchase Features"
-msgstr "Purchase Features"
+#: field:adhoc.base.config.settings,module_account_analytic_purchase_contract:0
+msgid "Manage contracts on Purchase."
+msgstr ""
+
+#. module: adhoc_base_purchase
+#: field:adhoc.base.config.settings,module_purchase_discount:0
+msgid "Mange disccounts on purchases"
+msgstr ""
 
 #. module: adhoc_base_purchase
 #: view:adhoc.base.config.settings:adhoc_base_purchase.view_adhoc_base_configuration
@@ -63,13 +124,17 @@ msgid "Purchases"
 msgstr "Purchases"
 
 #. module: adhoc_base_purchase
+#: field:adhoc.base.config.settings,module_purchase_uom_prices_uoms:0
+msgid ""
+"Restrict purchase uom to the product uom, purchase product uom and uoms "
+"defined in UOM Prices."
+msgstr ""
+
+#. module: adhoc_base_purchase
 #: field:adhoc.base.config.settings,module_purchase_line_defaults:0
 msgid ""
-"Set default onchange calling methods in purchasing to facilitate the import "
-"of files."
+"Set defaults values on purchase orders in order to facilitate file import."
 msgstr ""
-"Setear valor por defecto llamando a métodos onchange en compras para "
-"facilitar la importación de archivos."
 
 #. module: adhoc_base_purchase
 #: view:adhoc.base.config.settings:adhoc_base_purchase.view_adhoc_base_configuration
